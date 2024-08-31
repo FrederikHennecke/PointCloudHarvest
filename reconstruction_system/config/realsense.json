@@ -1,0 +1,22 @@
+{
+    "name": "Realsense bag file",
+    "path_dataset": "../dataset/f_3_1326581_20240827144444/",
+    "path_intrinsic": "../dataset/f_3_1326581_20240827144444/camera_intrinsic.json",
+    "depth_max": 6.0,
+    "voxel_size": 0.1,
+    "depth_diff_max": 0.15,
+    "preference_loop_closure_odometry": 0.3,
+    "preference_loop_closure_registration": 7.0,
+    "tsdf_cubic_size": 2.5,
+    "icp_method": "color",
+    "global_registration": "ransac",
+    "python_multi_threading": true,
+    "n_frames_per_fragment": 15,
+    "max_iterations": 20,
+    "sdf_trunc": 0.8,
+    "block_count": 100000,
+    "distance_threshold": 0.01,
+    "fitness_threshold": 0.8,
+    "regularizer_weight": 2.0,
+    "method": "slac"
+}
