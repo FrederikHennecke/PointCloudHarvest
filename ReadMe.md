@@ -1,4 +1,4 @@
-# PointCloudHarvest ((FarmBot Stereo-Vision Camera Module for Leaf Angle Calculation)
+# PointCloudHarvest (FarmBot Stereo-Vision Camera Module for Leaf Angle Calculation)
 
 This project implements a module for the FarmBot that uses a stereo-vision camera to take point clouds of sugar beet plants and calculate their leaf angles. The module consists of scripts for recording plant data and generating point clouds from these recordings.
 
