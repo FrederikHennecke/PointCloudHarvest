@@ -8,7 +8,6 @@ path = "./"
 uart_path = "ttyS0"
 plant_group_id = 97689
 
--- generate polygon coordinates for circling plant
 function generate_polygon(num_edges, radius)
     points = {}
     if(num_edges<=1) then
@@ -32,15 +31,12 @@ function generate_polygon(num_edges, radius)
     return points
 end
 
--- send uart message and wait for answer
 function send_and_wait(message, this_uart)
     uart_write_error = this_uart.write(string.format("%s \n", message))
     if uart_write_error then
         toast(inspect(uart_write_error), "error")
-        -- Handle errors etc..
     end
 
-    -- Wait 60s for data...
     read_string, uart_read_error = this_uart.read(15000)
     if uart_read_error then
         toast(inspect(uart_read_error), "error")
@@ -50,9 +46,7 @@ function send_and_wait(message, this_uart)
 end
 
 
--- main function
 function main()
-    -- device name, baud rate:
     my_uart, error = uart.open(uart_path, 9600)
     if error then
         toast(inspect(error), "error")
