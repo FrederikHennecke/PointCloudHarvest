@@ -1,5 +1,4 @@
 venv/
 .idea
-*.ply
 __pycache__/
 *.so

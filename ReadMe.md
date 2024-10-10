@@ -7,6 +7,7 @@ This project implements a module for the FarmBot that uses a stereo-vision camer
 - `record/`: Contains Python for recording the plants.
 - `reconstruction_system/`: Contains Python files for creating point clouds from the recordings.
 - `farmbot_files/`: Contains LUA files. Add the file to the FarmBot web interface.
+- `data/`: Contains example point clouds each generated with this project.
 
 ## Installation
 
