@@ -169,6 +169,5 @@ if __name__ == "__main__":
             main(parser, args)
 
 
-#  cd examples/python/reconstruction_system/
-#  python run_system.py config/realsense.json --make --register --refine --integrate --slac --slac_integrate
+#  python run_system.py --config config/realsense.json --make --register --refine --integrate --slac --slac_integrate --multiple "../dataset/"
 

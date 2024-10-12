@@ -79,19 +79,19 @@ python3 main.py [OPTIONS]
 1. **Run reconstruction with default settings**:
 
    ```bash
-   python3 main.py --make --register --refine --integrate
+   python3 main.py --config config/realsense.json --make --register --refine --integrate
    ```
 
 2. **Run reconstruction with SLAC optimization and GPU acceleration**:
 
    ```bash
-   python3 main.py --make --register --refine --integrate --slac --slac_integrate --device cuda:0
+   python3 main.py --config config/realsense.json --make --register --refine --integrate --slac --slac_integrate --device cuda:0
    ```
 
-3. **Run reconstruction with a custom dataset and debug mode**:
+3. **Run reconstruction multiple times with given file path**:
 
    ```bash
-   python3 main.py --default_dataset lounge --debug_mode
+   python run_system.py --config config/realsense.json --make --register --refine --integrate --slac --slac_integrate --multiple "../dataset/"
    ```
 
 ## Troubleshooting
