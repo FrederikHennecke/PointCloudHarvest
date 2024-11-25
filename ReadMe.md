@@ -1,5 +1,6 @@
 # PointCloudHarvest (FarmBot Stereo-Vision Camera Module for Leaf Angle Calculation)
 
+## Motivation
 Leaf inclination angles (LIA) are crucial for regulating various processes within the plant carbon–water–energy nexus. In agriculture, these processes include photosynthesis, leaf temperature, plant growth, and the microclimate within the canopy. Despite its significance, LIA remains one of the most understudied plant functional traits due to the difficulty of measuring it accurately, particularly at short temporal intervals. In optical remote sensing, LIA is a key factor influencing spectral variability, which directly impacts the robustness of empirical models. We developed a novel and automated approach to capture 3D point clouds of small crops (e.g., sugar beet), enabling precise determination of LIA from the generated data. Our system, controlled by publicly available code, allows for customizable capture intervals and positions. The method was validated using a 3D-printed sugar beet model with known LIA, demonstrating its potential for advancing plant trait studies.
 
 <p align="center">
