@@ -3,7 +3,7 @@
 Leaf inclination angles (LIA) are crucial for regulating various processes within the plant carbon–water–energy nexus. In agriculture, these processes include photosynthesis, leaf temperature, plant growth, and the microclimate within the canopy. Despite its significance, LIA remains one of the most understudied plant functional traits due to the difficulty of measuring it accurately, particularly at short temporal intervals. In optical remote sensing, LIA is a key factor influencing spectral variability, which directly impacts the robustness of empirical models. We developed a novel and automated approach to capture 3D point clouds of small crops (e.g., sugar beet), enabling precise determination of LIA from the generated data. Our system, controlled by publicly available code, allows for customizable capture intervals and positions. The method was validated using a 3D-printed sugar beet model with known LIA, demonstrating its potential for advancing plant trait studies.
 
 #<p align="center">
-#<a><img src="https://raw.githubusercontent.com/reflectdetect/reflectdetect/main/images/reflectdetect_logo.png" alt="reflectdetect" width="250" height="250" title="reflectdetect" style="border-radius: #50%;"></a>
+#<a><img src="./images/fig1_farmbot.png" alt="farmbot" width="250" height="250" title="farmbot" style="border-radius: #50%;"></a>
 #</p>
 
 This project implements a module for the FarmBot that uses a stereo-vision camera to take point clouds of sugar beet plants and calculate their leaf angles. The module consists of scripts for recording plant data and generating point clouds from these recordings.
