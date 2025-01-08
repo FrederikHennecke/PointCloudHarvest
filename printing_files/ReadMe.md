@@ -1,0 +1,1 @@
+The CAD files of the Realsense D405 camera can be found on the [official intel realsense website](https://dev.intelrealsense.com/docs/stereo-depth-camera-d400#section-cad-files).
