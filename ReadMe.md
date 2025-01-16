@@ -41,3 +41,18 @@ Many files from the [Open3D documentation](http://www.open3d.org/docs/release/) 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Citation
+
+Please cite [our work](https://doi.org/10.1016/j.mex.2025.103169) if you use this software.
+```bibtex
+@article{Hennecke_Modification_of_an_2025,
+    author  = {Hennecke, Frederik and Bömer, Jonas and Heim, René H.J.},
+    doi     = {10.1016/j.mex.2025.103169},
+    journal = {MethodsX},
+    month   = jan,
+    title   = {{Modification of an Automated Precision Farming Robot for High Temporal Resolution Measurement of Leaf Angle Dynamics using Stereo Vision}},
+    url     = {http://dx.doi.org/10.1016/j.mex.2025.103169},
+    year    = {2025}
+}
+```
